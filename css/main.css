@@ -58,13 +58,14 @@ footer {
 /*---------- TABLET ----------*/
 /* Change the background colors below */
 
-@media (min-width: 768px) {
+@media (width: 50%) {
   header {
-    background-color: ;
+    background-color: seagreen;
   }
 
   #column-1 {
     background-color: pink;
+    width: 100%;
   }
 
   #column-2 {
@@ -90,14 +91,17 @@ footer {
 
   #column-1 {
     background-color: orange;
+    width: 33.3333%; 
   }
 
   #column-2 {
     background-color: yellow;
+    width: 33.3333%;
   }
 
   #column-3 {
     background-color: purple;
+    width: 33.3333%;
   }
 
   footer {
